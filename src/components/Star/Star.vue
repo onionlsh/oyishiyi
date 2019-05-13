@@ -21,6 +21,12 @@ export default {
 
    computed:{
        starClasses(){
+         /**
+          * eg:
+          * star :4.7 
+          * 4.7 = 4-on + (0.7*10 > 5 ? 1: 0) - half + (5 - 前面star的个数)-off
+          */
+
           const {score} = this
           const scoreIntger = Math.floor(score)
           const scores = []

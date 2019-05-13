@@ -17,11 +17,11 @@ export default {
    mounted(){
        //this.$store.dispatch('getAddress')
        this.getAddress()
-       this.getCategorys()
+       this.getUserInfo()
    },
    
    methods: {
-       ...mapActions(['getAddress','getCategorys'])
+       ...mapActions(['getAddress','getUserInfo'])
    }
 }
 </script>

@@ -36,7 +36,11 @@
             </a>
           </li>
         </ul>
-        <img src="./images/shop_back.svg" alt="back" v-else>
+        <ul v-else>
+          <li v-for="item in 6"> 
+            <img src="./images/shop_back.svg" alt="back" >
+          </li>
+        </ul>
     </div>
 </template>
 
