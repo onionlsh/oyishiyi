@@ -8,5 +8,10 @@
     address:{},
     categorys:[],
     shops:[],
-    userInfo:{}
+    userInfo:{},
+    goods:[],
+    shopInfo:{},
+    comments:[],
+    carFoods:[], //购物车数量
+    searchShops:[]
  }
